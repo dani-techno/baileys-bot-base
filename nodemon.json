@@ -1,0 +1,21 @@
+{
+  "watch": [
+    ".env",
+    "**/*.js",
+    "**/*.json"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "node_modules",
+    "**/.cache/**",
+    "**/.data/**",
+    "**/.session/**",
+    "**/.auth_info/**",
+    "**/auth_info/**",
+    "**/*.cache",
+    "**/*.data",
+    "**/*.session"
+  ],
+  "exec": "node index.js",
+  "verbose": true
+}

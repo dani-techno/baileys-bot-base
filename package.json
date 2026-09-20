@@ -1,0 +1,58 @@
+{
+  "name": "baileys-bot-base",
+  "version": "1.0.0",
+  "description": "A lightweight, production-ready WhatsApp bot base template using Baileys. Extensible command handler, multiple auth modes, and robust connection management.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "wa-bot",
+    "whatsapp-bot",
+    "nodejs",
+    "javascript",
+    "automation",
+    "messaging"
+  ],
+  "author": {
+    "name": "Dani Joest",
+    "email": "dani.joest.id@gmail.com",
+    "url": "https://github.com/dani-techno"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/dani-techno/baileys-bot-base",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dani-techno/baileys-bot-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dani-techno/baileys-bot-base/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "dotenv": "latest",
+    "fs": "latest",
+    "path": "latest",
+    "pino": "latest",
+    "qrcode": "latest",
+    "qrcode-terminal": "latest",
+    "readline": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/dani-techno"
+  }
+}
