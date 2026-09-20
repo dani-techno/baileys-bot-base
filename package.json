@@ -46,7 +46,8 @@
     "pino": "latest",
     "qrcode": "latest",
     "qrcode-terminal": "latest",
-    "readline": "latest"
+    "readline": "latest",
+    "link-preview-js": "latest"
   },
   "devDependencies": {
     "nodemon": "latest"
